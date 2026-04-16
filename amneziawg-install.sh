@@ -134,7 +134,7 @@ install_awg_packages() {
     if [ "$MAJOR_VERSION" -gt 24 ] || \
        [ "$MAJOR_VERSION" -eq 24 -a "$MINOR_VERSION" -gt 10 ] || \
        [ "$MAJOR_VERSION" -eq 24 -a "$MINOR_VERSION" -eq 10 -a "$PATCH_VERSION" -ge 3 ] || \
-       [ "$MAJOR_VERSION" -eq 23 -a "$MINOR_VERSION" -eq 5 -a "$PATCH_VERSION" -ge 6 ]; then
+       [ "$MAJOR_VERSION" -eq 23 -a "$MINOR_VERSION" -eq 5 -a "$PATCH_VERSION" -ge 5 ]; then
         AWG_VERSION="2.0"
         LUCI_PACKAGE_NAME="luci-proto-amneziawg"
     else
